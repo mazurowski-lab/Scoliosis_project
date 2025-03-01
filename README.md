@@ -53,9 +53,12 @@ Use the notebook [`train_and_val.ipynb`](train_and_val.ipynb) for model training
 
 Use the notebook [`inference_1_case.ipynb`](inference_1_case.ipynb) to perform inference on a single case. The results, including the main Cobb angle annotation, will be displayed step by step.
 
+# Model weights
+The model weights can be found through: [Model weights](https://drive.google.com/drive/folders/19puLf636VVACwDS2ZVTQRTJYJXtxG7Tl?usp=sharing), and you can put them under /work_dirs. 
+
 
 # Comments
-We build out a detection algorithm mainly based on MMDetection. The details of MMDetection can be found [here](https://github.com/open-mmlab/mmdetection).
+We built a detection algorithm mainly based on MMDetection. The details of MMDetection can be found [here](https://github.com/open-mmlab/mmdetection).
 If you find our repo helpful, please feel free to cite our work:
 ```
 @misc{li2024deeplearningautomatescobb,
